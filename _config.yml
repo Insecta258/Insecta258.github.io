@@ -1,5 +1,5 @@
-name: "Pianfan's blog"
-description: "翩帆的个人技术博客"
+name: "INSECTA"
+description: "Insecta 官方网站"
 
 avatar: https://pianfan.github.io/images/avatar.png
 favicon: https://pianfan.github.io/images/favicon.ico
@@ -18,16 +18,16 @@ excerpt_separator: <!-- more -->
 
 footer-links:
   zhihu: 
-  email: xiongyunhan@outlook.com
+  email: 2701262643@qq.com
   facebook:
-  github: pianfan
+  github: Insecta
   rss: # just type anything here for a working RSS icon
   twitter: 
   youtube:
 
-footer-text: Copyright (c) 2024 Pianfan
+footer-text: Copyright (c) 2024 Insecta Studio
 
-url: https://pianfan.github.io
+url: https://insecta.github.io
 
 permalink: /:title/
 paginate_path: /page:num/
