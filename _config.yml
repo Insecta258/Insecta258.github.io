@@ -1,8 +1,8 @@
 name: "INSECTA"
 description: "Insecta 官方网站"
 
-avatar: https://pianfan.github.io/images/avatar.png
-favicon: https://pianfan.github.io/images/favicon.ico
+avatar: https://insecta258.github.io/images/avatar.png
+favicon: https://insecta258.github.io/images/favicon.ico
 
 navigation:
   - name: 首页
@@ -20,7 +20,7 @@ footer-links:
   zhihu: 
   email: 2701262643@qq.com
   facebook:
-  github: Insecta
+  github: Insecta258
   rss: # just type anything here for a working RSS icon
   twitter: 
   youtube:
