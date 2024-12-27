@@ -2,7 +2,7 @@ name: "INSECTA"
 description: "Insecta 官方网站"
 
 avatar: https://insecta258.github.io/images/avatar.png
-favicon: https://insecta258.github.io/images/1.ico
+favicon: https://insecta258.github.io/images/favicon.ico
 
 navigation:
   - name: 首页
