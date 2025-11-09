@@ -725,7 +725,7 @@
         <div class="container">
             <div class="hero-content">
                 <h1>Jetson Tan</h1>
-                <p>全栈开发者 | 开源爱好者 | 技术博主</p>
+                <p>LLMs开发者 | 开源支持者 | 嵌入式开发者</p>
                 <div class="hero-btns">
                     <a href="#projects" class="btn btn-primary">查看项目</a>
                     <a href="https://github.com/insecta258" target="_blank" class="btn btn-outline">GitHub</a>
@@ -744,8 +744,8 @@
             <div class="about-content">
                 <div class="about-text">
                     <h3>你好，我是 Jetson Tan</h3>
-                    <p>一名热衷于创造优秀数字体验的全栈开发者。我专注于使用现代技术栈构建响应式、用户友好的网站和应用程序。</p>
-                    <p>拥有丰富的Web开发经验，擅长前端框架和服务器端技术。我喜欢解决复杂问题，并不断学习新技术。</p>
+                    <p>一名热衷于创造优秀数字体验的LLMs开发者。我专注于使用现代技术栈构建响应式、用户友好的网站和应用程序。</p>
+                    <p>我喜欢解决复杂问题，并不断学习新技术。</p>
                     <div class="skills">
                         <span class="skill">HTML/CSS</span>
                         <span class="skill">JavaScript</span>
@@ -753,7 +753,7 @@
                         <span class="skill">Pytorch</span>
                         <span class="skill">C++</span>
                         <span class="skill">Git</span>
-                        <span class="skill">UI/UX设计</span>
+                        <span class="skill">嵌入式</span>
                     </div>
                 </div>
                 <div class="about-image">
@@ -783,7 +783,7 @@
                             <span class="project-tag">Javascript</span>
                             <span class="project-tag">Github Pages</span>
                         </div>
-                        <a href="#" class="project-link">查看详情 <i class="fas fa-arrow-right"></i></a>
+                        <a href="https://github.com/Insecta258/Insecta258.github.io" class="project-link">查看详情 <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
                 <div class="project-card fade-in">
@@ -902,7 +902,7 @@
             <div class="footer-content">
                 <div class="footer-column">
                     <h3>Jetson Tan</h3>
-                    <p>全栈开发者，专注于创造优秀的数字体验。</p>
+                    <p>LLMs开发者，专注于创造优秀的数字体验。</p>
                 </div>
                 <div class="footer-column">
                     <h3>快速链接</h3>
@@ -932,7 +932,7 @@
                 </div>
             </div>
             <div class="copyright">
-                <p>&copy; 2023 Jetson Tan. 保留所有权利。</p>
+                <p>&copy; 2025 Jetson Tan. 保留所有权利。</p>
             </div>
         </div>
     </footer>
@@ -1008,7 +1008,17 @@
             const subject = document.getElementById('subject').value;
             const message = document.getElementById('message').value;
             
-            // 这里可以添加表单提交逻辑，比如发送到服务器
+            const recipient = 'tanzongyouyi@outlook.com';
+	    const mailtoSubject = encodeURIComponent(subject);
+	    const mailtoBody = encodeURIComponent(
+	        `姓名: ${name}\n` +
+		`邮箱: ${email}\n` +
+		`-------------------\n` +
+		`消息内容:\n${message}`
+	    );
+	    const mailtoLink = `mailto:${recipient}?subject=${mailtoSubject}&body=${mailtoBody}`;
+	    window.location.href = mailtoLink;
+
             alert(`谢谢您的消息，${name}！我会尽快回复您。`);
             
             // 重置表单
